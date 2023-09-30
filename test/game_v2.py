@@ -20,7 +20,7 @@ def random_predict(number:int=1, spectrum: tuple=(1, 101)) -> int:
     return(count)
 
 def predict_fast(number:int=1, spectrum:tuple=(1, 101)) -> int:
-    """Рандомно угадываем число быстрее
+    """Угадываем число быстрее, чем 'random_predict'
 
     Args:
         number (int, optional): Загаданное число. Defaults to 1.
